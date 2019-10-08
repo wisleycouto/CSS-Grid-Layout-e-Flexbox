@@ -21,7 +21,11 @@ h1 {
 text-align: center;
 margin-top: 100pt;
 }
+img {
 
+max-width: 100%;
+display: block;
+}
 .header {
 	background: #1d1e20;
 	display: flex;
@@ -44,3 +48,8 @@ margin-top: 100pt;
 
 /* CSS FLEXBOX */
 
+.flex {
+display: flex;
+
+
+}
