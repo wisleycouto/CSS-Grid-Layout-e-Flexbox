@@ -50,6 +50,40 @@ display: block;
 
 .flex {
 display: flex;
+flex-wrap: wrap;
+max-width: 800px;
+margin: 0 auto;
 
+}
+.flex >div {
 
+	flex: 1 1 200px;
+	margin: 0,1px;
+
+}
+
+/* CSS GRID 1 */
+
+.grid1 {
+
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	grid-gap: 20px;
+	max-width: 800px;
+	padding: 10px;
+	margin: 0 auto;
+}
+.sidebar > div {
+
+	margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+
+	.grid1 {
+
+		grid-template-columns: 1fr;
+		padding: 10px;
+		margin: 0 auto;
+
+	}
 }
