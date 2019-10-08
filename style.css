@@ -16,6 +16,12 @@ a{
 	color: white;
 
 }
+h1 {
+
+text-align: center;
+margin-top: 100pt;
+}
+
 .header {
 	background: #1d1e20;
 	display: flex;
@@ -30,3 +36,11 @@ a{
 .menu li {
 	margin-left: 20px;
 }
+
+.menu li a {
+	display: block;
+	padding: 10px;
+}
+
+/* CSS FLEXBOX */
+
